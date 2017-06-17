@@ -1,0 +1,24 @@
+#times {
+    color:#1E90FF;
+    border-width: 3px;
+    border-color: #4B0082;
+    font: bold Sans-serif;
+    font-size:50pt;
+    text-align:center;
+    text-shadow: #4B0082 2px 2px 0, #4B0082 -2px -2px 0, 
+                 #4B0082 -2px 2px 0, #4B0082 2px -2px 0;
+}
+
+#cprt {
+    font: bold Sans-serif;
+    font-size:25pt;
+    color:#ffff00;
+    text-align:center;
+    text-shadow: #4B0082 2px 2px 0, #4B0082 -2px -2px 0, 
+                 #4B0082 -2px 2px 0, #4B0082 2px -2px 0;
+}
+
+ 
+body {
+    background-color:#ADD8E6;
+}
