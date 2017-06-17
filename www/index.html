@@ -5,8 +5,8 @@
   -->
 <head>
     <title>Blank Standard HTML5 Web App Template</title>
-           <script src = "/script.js"></script>
-    <link rel = "stylesheet" type = "text/css" href = "/style.css">
+           <script src = "js/script.js"></script>
+    <link rel = "stylesheet" type = "text/css" href = "styles/style.css">
       <!--<body onload="startTime()">-->
     <meta http-equiv="Content-type" content="text/html; charset=utf-8">
 
@@ -29,18 +29,15 @@
 </head>
 
 <body>
-<center>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <h1 id="cprt">Hello Watch!</h1>
+
     <h1 id="times"> </h1>
-    <h1 id="cprt">Time for labs</h1>
+    <center><canvas height='320' width='320' id='myCanvas' class='stopped'></canvas></center>
+    <center>
+        <h1 id="cprt">  </h1>
+        <br>
+        <br>
+        <br>
+        <input id="l_spin" type="button" value="Назад"> <input id="jump" type="button" value="Прыгай"> <input id="r_spin" type="button" value="Вперёд">
     </center>
 
 </body>
